@@ -1,0 +1,6 @@
+framework module Pods_WiproForecast {
+  umbrella header "Pods-WiproForecast-umbrella.h"
+
+  export *
+  module * { export * }
+}

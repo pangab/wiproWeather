@@ -12,9 +12,21 @@
 		484C09CB1F2384AD0054804F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484C09C91F2384AD0054804F /* Main.storyboard */; };
 		484C09CD1F2384AD0054804F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484C09CC1F2384AD0054804F /* Assets.xcassets */; };
 		484C09D01F2384AD0054804F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484C09CE1F2384AD0054804F /* LaunchScreen.storyboard */; };
+		484C09E41F23870C0054804F /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484C09E31F23870C0054804F /* ApiHandler.swift */; };
+		484C09E61F23878F0054804F /* HttpHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484C09E51F23878F0054804F /* HttpHandler.swift */; };
+		484C09EA1F238A540054804F /* ForecastTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484C09E91F238A540054804F /* ForecastTableView.swift */; };
+		484C09EF1F238B520054804F /* DayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484C09ED1F238B520054804F /* DayTableViewCell.swift */; };
+		484C09F31F238C250054804F /* WeatherSampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484C09F11F238C250054804F /* WeatherSampleCollectionViewCell.swift */; };
+		484C09F71F238FB00054804F /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484C09F61F238FB00054804F /* WeatherData.swift */; };
+		484C09F91F23945A0054804F /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484C09F81F23945A0054804F /* State.swift */; };
+		484C09FD1F239A400054804F /* WeatherSampleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 484C09FC1F239A400054804F /* WeatherSampleCollectionViewCell.xib */; };
+		484C09FE1F23A8BF0054804F /* DayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 484C09FA1F239A280054804F /* DayTableViewCell.xib */; };
+		484C09FF1F23A8C80054804F /* ForecastTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 484C09EB1F238A700054804F /* ForecastTableView.xib */; };
+		B6032E9BCAA822C68B66B490 /* Pods_WiproForecast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0E28BC3F611E2CB42CA4E7 /* Pods_WiproForecast.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2924A891D759BEC484AB0D2E /* Pods-WiproForecast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproForecast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WiproForecast/Pods-WiproForecast.debug.xcconfig"; sourceTree = "<group>"; };
 		484C09C21F2384AD0054804F /* WiproForecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiproForecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		484C09C51F2384AD0054804F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		484C09C71F2384AD0054804F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,18 @@
 		484C09CC1F2384AD0054804F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		484C09CF1F2384AD0054804F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		484C09D11F2384AD0054804F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		484C09E31F23870C0054804F /* ApiHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApiHandler.swift; path = Handlers/ApiHandler.swift; sourceTree = "<group>"; };
+		484C09E51F23878F0054804F /* HttpHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpHandler.swift; path = Handlers/HttpHandler.swift; sourceTree = "<group>"; };
+		484C09E91F238A540054804F /* ForecastTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForecastTableView.swift; path = Views/ForecastTableView.swift; sourceTree = "<group>"; };
+		484C09EB1F238A700054804F /* ForecastTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ForecastTableView.xib; path = Views/ForecastTableView.xib; sourceTree = "<group>"; };
+		484C09ED1F238B520054804F /* DayTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DayTableViewCell.swift; path = Views/DayTableViewCell.swift; sourceTree = "<group>"; };
+		484C09F11F238C250054804F /* WeatherSampleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherSampleCollectionViewCell.swift; path = Views/WeatherSampleCollectionViewCell.swift; sourceTree = "<group>"; };
+		484C09F61F238FB00054804F /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherData.swift; path = Models/WeatherData.swift; sourceTree = "<group>"; };
+		484C09F81F23945A0054804F /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = State.swift; path = Models/State.swift; sourceTree = "<group>"; };
+		484C09FA1F239A280054804F /* DayTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DayTableViewCell.xib; path = Views/DayTableViewCell.xib; sourceTree = "<group>"; };
+		484C09FC1F239A400054804F /* WeatherSampleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WeatherSampleCollectionViewCell.xib; path = Views/WeatherSampleCollectionViewCell.xib; sourceTree = "<group>"; };
+		9E0E28BC3F611E2CB42CA4E7 /* Pods_WiproForecast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WiproForecast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F17300F0435A9F59559BC381 /* Pods-WiproForecast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproForecast.release.xcconfig"; path = "Pods/Target Support Files/Pods-WiproForecast/Pods-WiproForecast.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6032E9BCAA822C68B66B490 /* Pods_WiproForecast.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24E7573A9951840E6A075C62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2924A891D759BEC484AB0D2E /* Pods-WiproForecast.debug.xcconfig */,
+				F17300F0435A9F59559BC381 /* Pods-WiproForecast.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		484C09B91F2384AD0054804F = {
 			isa = PBXGroup;
 			children = (
+				484C09F51F238F880054804F /* Models */,
+				484C09E81F238A230054804F /* Views */,
+				484C09DC1F2386400054804F /* Handlers */,
+				484C09D71F2384F80054804F /* ViewControllers */,
 				484C09C41F2384AD0054804F /* WiproForecast */,
 				484C09C31F2384AD0054804F /* Products */,
+				24E7573A9951840E6A075C62 /* Pods */,
+				BF43678B3838448DA06640DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +104,52 @@
 			path = WiproForecast;
 			sourceTree = "<group>";
 		};
+		484C09D71F2384F80054804F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		484C09DC1F2386400054804F /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				484C09E31F23870C0054804F /* ApiHandler.swift */,
+				484C09E51F23878F0054804F /* HttpHandler.swift */,
+			);
+			name = Handlers;
+			sourceTree = "<group>";
+		};
+		484C09E81F238A230054804F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				484C09E91F238A540054804F /* ForecastTableView.swift */,
+				484C09EB1F238A700054804F /* ForecastTableView.xib */,
+				484C09ED1F238B520054804F /* DayTableViewCell.swift */,
+				484C09FA1F239A280054804F /* DayTableViewCell.xib */,
+				484C09F11F238C250054804F /* WeatherSampleCollectionViewCell.swift */,
+				484C09FC1F239A400054804F /* WeatherSampleCollectionViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		484C09F51F238F880054804F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				484C09F61F238FB00054804F /* WeatherData.swift */,
+				484C09F81F23945A0054804F /* State.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BF43678B3838448DA06640DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E0E28BC3F611E2CB42CA4E7 /* Pods_WiproForecast.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +157,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 484C09D41F2384AD0054804F /* Build configuration list for PBXNativeTarget "WiproForecast" */;
 			buildPhases = (
+				737735952063DE700F59C7A7 /* [CP] Check Pods Manifest.lock */,
 				484C09BE1F2384AD0054804F /* Sources */,
 				484C09BF1F2384AD0054804F /* Frameworks */,
 				484C09C01F2384AD0054804F /* Resources */,
+				9A89F887FB2BBBEAC30B474A /* [CP] Embed Pods Frameworks */,
+				B24B428BF0DE661DCC46028B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,20 +212,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				484C09FF1F23A8C80054804F /* ForecastTableView.xib in Resources */,
+				484C09FE1F23A8BF0054804F /* DayTableViewCell.xib in Resources */,
 				484C09D01F2384AD0054804F /* LaunchScreen.storyboard in Resources */,
 				484C09CD1F2384AD0054804F /* Assets.xcassets in Resources */,
 				484C09CB1F2384AD0054804F /* Main.storyboard in Resources */,
+				484C09FD1F239A400054804F /* WeatherSampleCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		737735952063DE700F59C7A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A89F887FB2BBBEAC30B474A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WiproForecast/Pods-WiproForecast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B24B428BF0DE661DCC46028B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WiproForecast/Pods-WiproForecast-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		484C09BE1F2384AD0054804F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				484C09E61F23878F0054804F /* HttpHandler.swift in Sources */,
+				484C09EA1F238A540054804F /* ForecastTableView.swift in Sources */,
+				484C09E41F23870C0054804F /* ApiHandler.swift in Sources */,
+				484C09F31F238C250054804F /* WeatherSampleCollectionViewCell.swift in Sources */,
 				484C09C81F2384AD0054804F /* ViewController.swift in Sources */,
+				484C09F91F23945A0054804F /* State.swift in Sources */,
+				484C09EF1F238B520054804F /* DayTableViewCell.swift in Sources */,
+				484C09F71F238FB00054804F /* WeatherData.swift in Sources */,
 				484C09C61F2384AD0054804F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +405,7 @@
 		};
 		484C09D51F2384AD0054804F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2924A891D759BEC484AB0D2E /* Pods-WiproForecast.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WiproForecast/Info.plist;
@@ -270,6 +418,7 @@
 		};
 		484C09D61F2384AD0054804F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F17300F0435A9F59559BC381 /* Pods-WiproForecast.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WiproForecast/Info.plist;
@@ -299,6 +448,7 @@
 				484C09D61F2384AD0054804F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

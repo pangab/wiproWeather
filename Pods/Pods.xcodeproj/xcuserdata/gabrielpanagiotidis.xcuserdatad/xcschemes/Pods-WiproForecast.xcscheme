@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "484C09C11F2384AD0054804F"
-               BuildableName = "WiproForecast.app"
-               BlueprintName = "WiproForecast"
-               ReferencedContainer = "container:WiproForecast.xcodeproj">
+               BlueprintIdentifier = "CB9D1A51D307F40659A1408F2326601E"
+               BuildableName = "Pods_WiproForecast.framework"
+               BlueprintName = "Pods-WiproForecast"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "484C09C11F2384AD0054804F"
-            BuildableName = "WiproForecast.app"
-            BlueprintName = "WiproForecast"
-            ReferencedContainer = "container:WiproForecast.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "484C09C11F2384AD0054804F"
-            BuildableName = "WiproForecast.app"
-            BlueprintName = "WiproForecast"
-            ReferencedContainer = "container:WiproForecast.xcodeproj">
+            BlueprintIdentifier = "CB9D1A51D307F40659A1408F2326601E"
+            BuildableName = "Pods_WiproForecast.framework"
+            BlueprintName = "Pods-WiproForecast"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "484C09C11F2384AD0054804F"
-            BuildableName = "WiproForecast.app"
-            BlueprintName = "WiproForecast"
-            ReferencedContainer = "container:WiproForecast.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

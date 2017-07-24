@@ -1,7 +1,7 @@
 # wiproWeather
 
 
-##WiproWeather is an iPhone app that displays a 5 day weather forecast for London.
+## WiproWeather is an iPhone app that displays a 5 day weather forecast for London.
 
 Scroll vertically to scroll through days and horizontally to scroll through times of a day.
 <br />Scroll all the way up to refresh the results.
